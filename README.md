@@ -1,10 +1,9 @@
 # opentracker-docker 
-[![Docker Pulls](https://img.shields.io/docker/pulls/lednerb/opentracker-docker.svg?maxAge=2592000)]() 
-[![Docker Stars](https://img.shields.io/docker/stars/lednerb/opentracker-docker.svg?maxAge=2592000)]() 
-[![license](https://img.shields.io/github/license/lednerb/opentracker-docker.svg?maxAge=2592000)]() 
-[![GitHub stars](https://img.shields.io/github/stars/lednerb/opentracker-docker.svg?label=Github%20stars&maxAge=2592000)]() 
-![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)    
-[![Bitcoin Donation](https://img.shields.io/badge/Donate-via%20Bitcoins-orange.svg?style=flat-square&link=bitcoin:1Q9M8zpgkXicS8fAa4JZksqWVgYXnknoTU?amount=0.01&label=Donation%20for%20Lednerb&#39;s%20great%20work%20at%20opentracker-docker%20%3B-)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/) 
+[![Docker Stars](https://img.shields.io/docker/stars/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/) 
+[![license](https://img.shields.io/github/license/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://github.com/Lednerb/opentracker-docker/blob/master/LICENSE) 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)    
+[![Bitcoin Donation](https://img.shields.io/badge/Donate-with%20Bitcoins-orange.svg?style=flat-square)](https://donate.lednerb.de/?opentracker-docker)
 
 
 With this repo you can easily run your own instance of the opentracker for bitorrent.
@@ -61,4 +60,4 @@ opentracker is _beerware_ so feel free to donate those guys a drink ;-)
 
 If you like my work with the docker image for the opentracker, you can spend some bitcoins here ('cause I don't drink any beer):
 
-<a href="bitcoin://1Q9M8zpgkXicS8fAa4JZksqWVgYXnknoTU?amount=0.01&label=Donation%20for%20Lednerb&#39;s%20great%20work%20at%20opentracker-docker%20%3B-)"><img src="https://img.shields.io/badge/Donate-via%20Bitcoins-orange.svg?style=flat-square"></a>
+[![Bitcoin Donation](https://img.shields.io/badge/Donate-with%20Bitcoins-orange.svg?style=flat-square)](https://donate.lednerb.de/?opentracker-docker)
