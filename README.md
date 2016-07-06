@@ -54,6 +54,6 @@ Just follow the steps from obove but paste the info_hashes into the `blacklist.t
 [Best wishes to the creators of opentracker!](http://erdgeist.org/arts/software/opentracker/)
 opentracker is _beerware_ so feel free to donate those guys a drink ;-)
 
-If you like my work you can spend some bitcoins here ['cause I don't drink any beer ;-)] 
+If you like my work you can spend some bitcoins here ['cause I don't drink any beer] 
 
 [![Bitcoin Donation](https://img.shields.io/badge/Donate-with%20Bitcoins-orange.svg?style=flat-square)](https://donate.lednerb.de/?opentracker-docker)
