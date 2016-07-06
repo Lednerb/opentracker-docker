@@ -27,8 +27,10 @@ RUN apk add --no-cache \
 	&& apk del gcc g++ make git cvs zlib-dev \
 	&& rm -rf /var/cache/apk/* /tmp/* 
 
-COPY ./opentracker.conf /etc/opentracker.conf
+COPY ./opentracker.conf /etc/opentracker/opentracker.conf
+COPY ./whitelist.txt	/etc/opentracker/whitelist.txt
+COPY ./blacklist.txt	/etc/opentracker/blacklist.conf
 
 EXPOSE 6969
 
-CMD opentracker -f /etc/opentracker.conf
+CMD opentracker -f /etc/opentracker/opentracker.conf
