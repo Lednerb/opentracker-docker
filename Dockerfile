@@ -1,14 +1,16 @@
-FROM ubuntu:14.04
+FROM alpine:latest
 
 MAINTAINER Lednerb <Hack_EN@lednerb.de>
 
-RUN apt-get update && apt-get install -y \
-	build-essential \
-	libpq-dev \
+RUN apk add --no-cache \
+	gcc \
+	g++ \
+	make \
 	git \
-	cvs
+	cvs \
+	zlib-dev
 
-RUN useradd -u 1000 -ms /bin/bash trackerdriver
+RUN adduser -u 1000 -s /bin/bash -D trackerdriver
 
 USER trackerdriver
 WORKDIR /home/trackerdriver
@@ -19,7 +21,7 @@ RUN cvs -d :pserver:cvs@cvs.fefe.de:/cvs -z9 co libowfat \
 	&& cd ../
 
 RUN git clone git://erdgeist.org/opentracker \
-	&& cd opentracker 
+	&& cd opentracker \
 	&& make
 
 COPY ./opentracker.conf /home/trackerdriver/opentracker.conf
