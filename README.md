@@ -1,9 +1,5 @@
 # opentracker-docker 
-[![Docker Pulls](https://img.shields.io/docker/pulls/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/) 
-[![Docker Stars](https://img.shields.io/docker/stars/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/) 
-[![license](https://img.shields.io/github/license/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://github.com/Lednerb/opentracker-docker/blob/master/LICENSE) 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)    
-[![Bitcoin Donation](https://img.shields.io/badge/Donate-with%20Bitcoins-orange.svg?style=flat-square)](https://donate.lednerb.de/?opentracker-docker)
+[![Docker Pulls](https://img.shields.io/docker/pulls/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/) [![Docker Stars](https://img.shields.io/docker/stars/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/)  [![license](https://img.shields.io/github/license/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://github.com/Lednerb/opentracker-docker/blob/master/LICENSE) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/) [![Bitcoin Donation](https://img.shields.io/badge/Donate-with%20Bitcoins-orange.svg?style=flat-square)](https://donate.lednerb.de/?opentracker-docker)
 
 
 With this repo you can easily run your own instance of the opentracker for bitorrent.
