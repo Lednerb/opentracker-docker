@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER Lednerb <Hack_EN@lednerb.de>
+MAINTAINER Lednerb <code@lednerb.de>
 
 WORKDIR /tmp
 
