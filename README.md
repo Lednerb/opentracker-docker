@@ -5,7 +5,7 @@
 With this repo you can easily run your own instance of the opentracker for bitorrent.
 
 ## How to run an _open_ opentracker
-If you want to run a complety open tracker, just pull the docker image and start up a container:
+If you want to run a complete open tracker, just pull the docker image and start up a container:
 
 `docker run -d --name opentracker -p 6969:6969/udp -p 6969:6969 lednerb/opentracker-docker`
 
@@ -23,7 +23,7 @@ Now you have to build your own image as follows:
 
 After building the docker image successfully you can start up a container:
 
-`docker run -d --name opentracker -p 6969:6969/udp -p 6969:6969 lednerb/opentracker-docker`
+`docker run -d --name opentracker -p 6969:6969/udp -p 6969:6969 yourfancyname/opentracker`
 
 
 ## How to whitelist your opentracker torrents
@@ -43,9 +43,9 @@ Example whitelist.txt:
 890123456789abcdef0123456789abcdef012345
 ```
 
-After the docker image was successfully built you can start a container:
+After the docker image was successfully built you can start a new container:
 
-`docker run -d --name opentracker -p 6969:6969/udp -p 6969:6969 lednerb/opentracker-docker`
+`docker run -d --name opentracker -p 6969:6969/udp -p 6969:6969 yourfancyname/opentracker`
 
 ## How to blacklist some torrents
 Just follow the steps from obove but paste the `info_hashes` into the `blacklist.txt` file and uncomment line 41 in the `opentracker.conf` file.
