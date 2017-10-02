@@ -1,5 +1,5 @@
 # opentracker-docker 
-[![Docker Pulls](https://img.shields.io/docker/pulls/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/) [![Docker Stars](https://img.shields.io/docker/stars/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/)  [![license](https://img.shields.io/github/license/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://github.com/Lednerb/opentracker-docker/blob/master/LICENSE) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/) [![Bitcoin Donation](https://img.shields.io/badge/Donate-with%20Bitcoins-orange.svg?style=flat-square)](https://donate.lednerb.de/?opentracker-docker)
+[![Docker Pulls](https://img.shields.io/docker/pulls/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/) [![Docker Stars](https://img.shields.io/docker/stars/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://hub.docker.com/r/lednerb/opentracker-docker/)  [![license](https://img.shields.io/github/license/lednerb/opentracker-docker.svg?maxAge=2592000&style=flat-square)](https://github.com/Lednerb/opentracker-docker/blob/master/LICENSE) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
 
 With this repo you can easily run your own instance of the opentracker for bitorrent.
@@ -53,7 +53,3 @@ Just follow the steps from obove but paste the `info_hashes` into the `blacklist
 ## Thanks & Donations
 [Best wishes to the creators of opentracker!](http://erdgeist.org/arts/software/opentracker/)
 opentracker is _beerware_ so feel free to donate those guys a drink ;-)
-
-If you like my work you can spend some bitcoins here ['cause I don't drink any beer] 
-
-[![Bitcoin Donation](https://img.shields.io/badge/Donate-with%20Bitcoins-orange.svg?style=flat-square)](https://donate.lednerb.de/?opentracker-docker)
